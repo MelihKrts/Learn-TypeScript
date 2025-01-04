@@ -56,6 +56,7 @@ let undefineValue: undefined = undefined;
 ## Symbol
 
 <p align="justify">Sembol veri tipi her zaman benzersiz nesneler oluşturmak için kullanılır.</p>
+
 ```ts
 let sym1 = Symbol();
 let sym2 = Symbol("key")
