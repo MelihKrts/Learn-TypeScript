@@ -10,3 +10,5 @@
 - [Kaynakça](#kaynakça)
 
 # Kaynakça
+- [TypeScript Çalışma Notları](https://typescript-notlari.vercel.app/)
+- [TypeScript Resmi Doküman](https://www.typescriptlang.org/docs/)
