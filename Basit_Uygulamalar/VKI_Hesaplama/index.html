@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKİ Hesaplayıcı</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="title">VKİ Hesaplama</h1>
+    <div class="container">
+
+        <div class="content-box">
+
+            <p class="content-paragraph">Vücut Kitle İndeksi (VKİ) bir kişinin boyuna göre ağırlığının ölçüsü olup, ağırlığın boyun karesine bölünmesi (kg/m²) ile hesaplanan bir değerdir. Vücut yağ miktarının bir göstergesi olarak alınır ve obezite durumunun belirlenmesini sağlar. Bireyin vücut ağırlının, boy uzunluğunun karesine bölünmesiyle elde edilen vücut kitle endeksi, kişinin sağlıklı bir kiloda olup olmadığının belirlenmesinde işe yarar. </p>
+
+            <ul class="content-list">
+               <li>Düşük Kilolu :18.5'dan az.</li> 
+               <li>Sağlıklı aralık: 18,5 ila 24,9.</li>
+               <li>Fazla kilolu: 25 ila 29.9.</li>
+               <li>1. sınıf obezite: 30-34.9.</li>
+               <li>2. sınıf obezite: 35-39.9.</li>
+               <li>3. sınıf obezite: 40’ın üzerinde.</li>
+            </ul>
+
+            <div class="calculate">
+
+                <label class="label-title">Boy </label>
+                <input type="number" id="height" class="inputfield" inputmode="numeric" pattern="[0-9]*">
+
+                <label class="label-title">Kilo </label>
+                <input type="number" id="weight" class="inputfield" inputmode="numeric" pattern="[0-9]*">
+
+                <button class="result-btn">Hesapla</button>
+
+                <p class="result" id="resultText"></p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
