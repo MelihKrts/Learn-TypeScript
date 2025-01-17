@@ -1,1 +1,0 @@
-export const OPENWEATHER_API_KEY = "5285f411e4a0fa9d61b7fb78474685e2";
