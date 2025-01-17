@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Information App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for a country...">
+        </div>
+
+        <div class="countries-grid" id="countriesContainer">
+            <!-- Örnek Ülke Kartı -->
+            <div class="country-card">
+                <img src="https://via.placeholder.com/300x200" alt="Country Flag" class="country-flag">
+                <div class="country-info">
+                    <h3 class="country-name">Country Name</h3>
+                    <div class="country-details">
+                        <p id="population"><strong>Population:</strong> 1,234,567</p>
+                        <p id="region"><strong>Region:</strong> Continent</p>
+                        <p id="capital"><strong>Capital:</strong> Capital City</p>
+                        <p id="language"><strong>Language</strong>Language</p>
+                        <p id="demonym"><strong>Demonym</strong>Demonym</p>
+                        <p id="currency"><strong>Currency: </strong>Currency</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+
+</html>
